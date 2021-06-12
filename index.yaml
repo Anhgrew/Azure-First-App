@@ -1,0 +1,43 @@
+apiVersion: v1
+entries:
+  azure:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2021-06-12T15:31:49.536636127+07:00"
+    dependencies:
+    - name: ingress-nginx
+      repository: https://kubernetes.github.io/ingress-nginx
+      version: 3.33.0
+    description: A Helm chart for Kubernetes
+    digest: 10406913d5b10490f4aee6badc14f0ab3c15a1907e7c19f56d3318aa25bd33c1
+    name: azure
+    type: application
+    urls:
+    - https://github.com/Anhgrew/Azure-First-App/azure-0.1.0.tgz
+    version: 0.1.0
+  ingress-nginx:
+  - annotations:
+      artifacthub.io/changes: |
+        - Update nginx to v1.20.1
+    apiVersion: v2
+    appVersion: 0.47.0
+    created: "2021-06-12T15:31:49.53941961+07:00"
+    description: Ingress controller for Kubernetes using NGINX as a reverse proxy
+      and load balancer
+    digest: 52ec03a3ebbca9ff08de5087ecf45c444db317f73d2e4b12845625db1e10fb3a
+    home: https://github.com/kubernetes/ingress-nginx
+    icon: https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Nginx_logo.svg/500px-Nginx_logo.svg.png
+    keywords:
+    - ingress
+    - nginx
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - name: ChiefAlexander
+    name: ingress-nginx
+    sources:
+    - https://github.com/kubernetes/ingress-nginx
+    type: application
+    urls:
+    - https://github.com/Anhgrew/Azure-First-App/charts/ingress-nginx-3.33.0.tgz
+    version: 3.33.0
+generated: "2021-06-12T15:31:49.533117448+07:00"
